@@ -147,6 +147,11 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .feature { display: grid; grid-template-columns: 64px 220px 1fr; gap: 20px; align-items: baseline; padding: 26px 0; border-bottom: 1px solid var(--line); }
 .feature .number { color: var(--accent); font-family: ui-monospace, monospace; }
 .feature h3 { margin: 0; font-size: 20px; }
+.landing .feature h3 span { display: block; margin-top: 8px; font-size: 13px; font-weight: 400; line-height: 1.7; color: var(--muted); }
+.landing .signal-invitation { padding: 52px 0; border-top: 1px solid var(--line); }
+.landing .signal-invitation h2 { font-size: clamp(24px, 4vw, 36px); }
+.landing .signal-invitation p { color: var(--muted); }
+.landing .signal-invitation .signal-reply { color: var(--accent); font-size: clamp(44px, 8vw, 72px); font-weight: 700; margin: 12px 0; }
 .feature p { color: var(--muted); margin: 0; }
 .resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 20px 0 36px; }
 .resource { display: block; padding: 18px 22px; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
