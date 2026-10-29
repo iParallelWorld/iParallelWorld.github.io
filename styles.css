@@ -154,6 +154,20 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .resource small { display: block; color: var(--muted); margin-top: 4px; }
 .resource:hover { text-decoration: none; border-color: var(--accent); }
 .contact-address { font-size: clamp(18px, 4vw, 24px); }
+.landing .hero-whisper { color: var(--text); font-size: 14px; margin-top: 24px; padding-left: 16px; border-left: 1px solid var(--accent); }
+.landing .story-signal { border-top: 1px solid var(--line); padding: 52px 0 28px; margin-top: 24px; }
+.landing .story-heading { max-width: 640px; }
+.landing .story-heading h2 { font-size: clamp(28px, 4vw, 40px); margin: 16px 0 24px; }
+.landing .story-heading > p { color: var(--muted); }
+.landing .story-heading .story-question { color: var(--text); margin-top: 24px; }
+.landing .story-fragments { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin: 44px 0; }
+.landing .story-fragment { border-top: 1px solid var(--line); padding-top: 18px; }
+.landing .story-fragment h3 { margin: 14px 0 12px; }
+.landing .story-fragment p { color: var(--muted); font-size: 15px; }
+.landing .theseus-motto { margin: 52px 0 0; padding: 28px 0 28px 24px; border-left: 2px solid var(--accent); }
+.landing .theseus-motto p { font-size: clamp(22px, 3vw, 30px); line-height: 1.65; }
+.landing .theseus-motto cite { color: var(--muted); font-size: 13px; font-style: normal; }
+.landing .motto-question { margin: 22px 0 36px; color: var(--muted); font-size: 15px; }
 .support-intro { max-width: 44em; color: var(--muted); }
 .support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .support-grid .card { margin: 0; }
@@ -168,6 +182,8 @@ main > p, main > ul, main > ol { max-width: 78ch; }
   .feature { grid-template-columns: 36px 1fr; gap: 12px; padding: 24px 0; }
   .feature p { grid-column: 2; }
   .resource-grid, .support-grid { grid-template-columns: 1fr; }
+  .landing .story-fragments { grid-template-columns: 1fr; gap: 20px; margin: 30px 0; }
+  .landing .story-signal { padding-top: 32px; }
   .card { padding: 20px; }
   .nav { gap: 8px; }
   .nav a { padding: 10px 12px; }
